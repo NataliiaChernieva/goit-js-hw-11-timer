@@ -1,0 +1,27 @@
+.timer {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #212121;
+  border-radius: 2px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.value {
+  background-color: #b53faf;
+  padding: 10px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.label {
+  text-transform: uppercase;
+}
