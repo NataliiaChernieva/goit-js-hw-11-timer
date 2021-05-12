@@ -1,7 +1,6 @@
 .timer {
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
+  justify-content: center;
   text-align: center;
   color: #212121;
   border-radius: 2px;
@@ -17,11 +16,14 @@
 
 .value {
   background-color: #b53faf;
+  font-size: 45px;
   padding: 10px 10px;
+  margin-bottom: 10px;
   cursor: pointer;
   border-radius: 3px;
 }
 
 .label {
+  font-size: 20px;
   text-transform: uppercase;
 }
